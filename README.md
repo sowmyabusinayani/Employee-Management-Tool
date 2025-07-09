@@ -1,4 +1,4 @@
-# Employee-Management-Tool
+# Employee-Management-System
 Screenshots
 
 ![Screenshot (101)](https://user-images.githubusercontent.com/123728670/236123285-d043591c-9edc-4f2f-8467-6d18c1f049d1.png)
