@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <h1>Employee Management System</h1>
+    <form action="{{ url_for('add_employee') }}" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" required>
+        <label for="hire_date">Hire Date:</label>
+        <input type="date" id="hire_date" name="hire_date" required>
+        <input type="submit" value="Add Employee">
+    </form>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th
+                <th>Department</th>
+                    <th>Job Title</th>
+                    <th>Hire Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for employee in employees %}
+                <tr>
+                    <td>{{ employee.name }}</td>
+                    <td>{{ employee.department }}</td>
+                    <td>{{ employee.job_title }}</td>
+                    <td>{{ employee.hire_date }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
