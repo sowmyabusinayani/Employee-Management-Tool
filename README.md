@@ -1,16 +1,25 @@
 # Employee-Management-System
-Screenshots
 
-![Screenshot (101)](https://user-images.githubusercontent.com/123728670/236123285-d043591c-9edc-4f2f-8467-6d18c1f049d1.png)
-![Screenshot (102)](https://user-images.githubusercontent.com/123728670/236123239-dba08275-0c50-4147-bc8d-7aa81c3ef849.png)
-![Screenshot (103)](https://user-images.githubusercontent.com/123728670/236123319-2d8dfa2d-043e-4163-9f63-8cfdd5016aaf.png)
-![Screenshot (104)](https://user-images.githubusercontent.com/123728670/236123352-f5fdc896-61f3-4296-a301-4a9727f5cf47.png)
+A simple web-based Employee Management System built to demonstrate
+how to manage structured records using a database-backed application.
+
+This project focuses on CRUD operations, data persistence using SQLite,
+and basic web application architecture. 
 
 ## Features
 
-- Add, edit, and delete employee records
-- List all employees
-- Store records in SQLite database
+- Add new employee records  
+- Edit existing employee details  
+- Delete employee records  
+- View and list all employees  
+- Data stored in SQLite database  
+
+## Tech Stack
+
+- **Backend:** Python (Flask)  
+- **Database:** SQLite  
+- **Frontend:** HTML, CSS  
+- **Tools:** Git, GitHub  
 
 ## Installation
 
@@ -31,14 +40,34 @@ venv\Scripts\activate     # Windows
 4. Install the required dependencies.
  pip install -r requirements.txt
 
-
-
-### Usage
-Start the application by running app.py.
+5. Run the application
+python app.py
 
 Open a web browser and navigate to http://localhost:5000 to access the application.
 
-####Contributing
+```
+
+## What This Project Demonstrates
+
+- Implementing CRUD functionality for structured data
+- Connecting a web interface with a relational database
+- Handling employee information in a simple business workflow
+- Using Flask for backend routing and database operations
+- Data persistence using SQLite
+
+## Possible Enhancements
+
+- Add search and filter functionality
+- Implement roles and permissions (Admin/User)
+- Add export to CSV or Excel
+- Improve UI with Bootstrap or responsive design
+- Add authentication system
+
+
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+## License
+
+MIT License
+© 2025 Businayani Sowmya
